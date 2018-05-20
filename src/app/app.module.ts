@@ -7,7 +7,7 @@ import { StyledComponent } from './styled/styled.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StyledComponent
+    StyledComponent,
   ],
   imports: [
     BrowserModule
@@ -15,4 +15,5 @@ import { StyledComponent } from './styled/styled.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
