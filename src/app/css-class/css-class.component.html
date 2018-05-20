@@ -7,3 +7,8 @@
 <p [class.rounded-border]="isBorder">
   I have rounded border!
 </p>
+
+<div [ngClass]="{ bold: isBold, hightlight: isStrike, strike: isHightlight }">Hi here</div>
+<div><label><input type="checkbox" [(ngModel)]="isBold"> Add bold</label></div>
+<div><label><input type="checkbox" [(ngModel)]="isStrike"> Add strike</label></div>
+<div><label><input type="checkbox" [(ngModel)]="isHightlight"> Add hightlight</label></div>
