@@ -1,0 +1,20 @@
+.panel {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 4px;
+
+  &-heading {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+
+  &-title {
+    padding: 10px 5px;
+  }
+
+  &-body {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px 5px;
+  }
+}
