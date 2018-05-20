@@ -4,7 +4,7 @@ import _ from 'lodash';
 @Component({
   selector: 'app-styled',
   templateUrl: './styled.component.html',
-  styleUrls: ['./styled.component.css']
+  styleUrls: ['./styled.component.scss']
 })
 export class StyledComponent implements OnInit {
   data = { a: 'aaa' };
