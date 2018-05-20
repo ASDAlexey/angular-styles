@@ -5,7 +5,6 @@ import _ from 'lodash';
   selector: 'app-styled',
   templateUrl: './styled.component.html',
   styleUrls: ['./styled.component.scss'],
-  encapsulation: ViewEncapsulation.Native,
 })
 export class StyledComponent implements OnInit {
   data = { a: 'aaa' };
