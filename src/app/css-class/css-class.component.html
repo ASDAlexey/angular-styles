@@ -1,0 +1,9 @@
+<div>
+  <label>
+    <input type="checkbox" [(ngModel)]="isBorder"> Add border
+  </label>
+</div>
+
+<p [class.rounded-border]="isBorder">
+  I have rounded border!
+</p>
