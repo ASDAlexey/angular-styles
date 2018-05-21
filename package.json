@@ -4,8 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "serve": "ng serve --source-map",
     "serve:hmr": "ng serve --hmr",
-    "build": "ng build --prod --aot && node compress.js",
+    "build": "ng build --prod --no-aot",
+    "build:aot": "ng build --prod",
+    "build:aot:brotli": "ng build --prod --aot && node compress.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -28,6 +31,7 @@
     "express-static-gzip": "^0.3.2",
     "lodash": "^4.17.10",
     "rxjs": "^6.0.0",
+    "source-map-explorer": "^1.5.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

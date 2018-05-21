@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import _ from 'lodash';
+import { Component, OnInit } from '@angular/core';
+import get from 'lodash/get';
 
 @Component({
   selector: 'app-styled',
@@ -10,6 +10,6 @@ export class StyledComponent implements OnInit {
   data = { a: 'aaa' };
 
   ngOnInit() {
-    console.log(_.get(this.data, 'a'));
+    console.log(get(this.data, 'a'));
   }
 }
