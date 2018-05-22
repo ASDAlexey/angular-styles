@@ -7,6 +7,7 @@ import { StyledComponent } from './styled/styled.component';
 import { StylishComponent } from './stylish/stylish.component';
 import { CssClassComponent } from './css-class/css-class.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
+import { SanitizedComponent } from './sanitized/sanitized.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
     StylishComponent,
     CssClassComponent,
     NgstyleComponent,
+    SanitizedComponent,
   ],
   imports: [
     BrowserModule,
