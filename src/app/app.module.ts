@@ -8,6 +8,7 @@ import { StylishComponent } from './stylish/stylish.component';
 import { CssClassComponent } from './css-class/css-class.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { SanitizedComponent } from './sanitized/sanitized.component';
+import { HostStylingComponent } from './host-styling/host-styling.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SanitizedComponent } from './sanitized/sanitized.component';
     CssClassComponent,
     NgstyleComponent,
     SanitizedComponent,
+    HostStylingComponent,
   ],
   imports: [
     BrowserModule,
