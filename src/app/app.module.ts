@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StyledComponent } from './styled/styled.component';
 import { StylishComponent } from './stylish/stylish.component';
 import { CssClassComponent } from './css-class/css-class.component';
+import { NgstyleComponent } from './ngstyle/ngstyle.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { CssClassComponent } from './css-class/css-class.component';
     StyledComponent,
     StylishComponent,
     CssClassComponent,
+    NgstyleComponent,
   ],
   imports: [
     BrowserModule,

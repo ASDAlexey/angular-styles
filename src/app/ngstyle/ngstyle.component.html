@@ -1,0 +1,8 @@
+<p [ngStyle]="borderStyle">
+  ngstyle works!
+</p>
+
+<p>
+  <input type="text" [ngModel] #boxWidth>
+  <button (click)="updateStyle(boxWidth.value)">Set</button>
+</p>
