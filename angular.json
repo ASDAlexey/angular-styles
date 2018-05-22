@@ -25,7 +25,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/_variables.scss"
+              ]
+            },
+            "scripts": [ ]
           },
           "configurations": {
             "production": {
@@ -74,7 +79,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [ ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
