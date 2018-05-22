@@ -11,6 +11,7 @@ import { SanitizedComponent } from './sanitized/sanitized.component';
 import { HostStylingComponent } from './host-styling/host-styling.component';
 import { HostcontextStylingComponent } from './hostcontext-styling/hostcontext-styling.component';
 import { ChildComponent } from './child/child.component';
+import { StyledDirective } from './styled.directive';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ChildComponent } from './child/child.component';
     HostStylingComponent,
     HostcontextStylingComponent,
     ChildComponent,
+    StyledDirective,
   ],
   imports: [
     BrowserModule,
